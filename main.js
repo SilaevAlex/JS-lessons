@@ -79,30 +79,30 @@
 
 /* HW4 start */
 
-var text = '<b>My</b> <b>name</b> is <i>Alex</i>'
+// var text = '<b>My</b> <b>name</b> is <i>Alex</i>'
 
 
-var result = ""
+// var result = ""
 
-var isFiltre = false
+// var isFiltre = false
 
-for (var char of text) {
+// for (var char of text) {
 
-    console.log(char)
+//     console.log(char)
 
-    if (char === "<") {
-        isFiltre = true
-    }
-    if (isFiltre === false) {
-        result += char
-    }
+//     if (char === "<") {
+//         isFiltre = true
+//     }
+//     if (isFiltre === false) {
+//         result += char
+//     }
 
-    if (char === ">") {
-        isFiltre = false
-    }
+//     if (char === ">") {
+//         isFiltre = false
+//     }
 
-}
+// }
 
-alert(result)
+// alert(result)
 
 /* HW4 end */
